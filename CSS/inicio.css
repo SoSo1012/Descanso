@@ -1,0 +1,125 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    
+    font-size: 40px;
+    font-family: "Dancing Script', cursive";
+    margin-bottom: 40px;
+    color:black;
+}
+
+.subtitulo {
+
+    margin: 0;
+    color:lightblue;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+}
+
+.linea-division {
+
+    width: 80%;
+    height: 2px;
+    background-color: lightblue;
+}
+
+.carousel{
+
+    min-height: 300px;
+    margin-bottom: 100px;
+}
+
+.carousel .carousel-item{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    user-select: none;
+    width: 300px;
+    height: 300px;
+}
+
+.carousel .carousel-item img{
+
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item{
+
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background:lightblue;
+
+}
+
+.contenedor-columnas{
+
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+.columnasx4{
+
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    cursor: pointer;
+}
+
+.columnasx4 img{
+
+    width: 100%;
+
+}
+nav{
+
+    padding: 15px;
+    text-align: right;
+}
+
+a{
+    margin: 10px;
+}
+
+img{
+
+    border-radius: 30px;
+}
+
+h3{
+    margin: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h5{
+    margin: 20px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
